@@ -1,2 +1,4 @@
-# example-module
-Tutorialized example module showing how to use DDS Manager in the AMM Library and building an AMM compliant module.
+
+
+This repo demonstrates how to use the AMM Library, DDS Manager, and how to build an AMM compliant module.
+See Tutorial 1 to get started.

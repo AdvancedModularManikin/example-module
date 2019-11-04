@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CapabilitiesSchema
+   xmlns="urn:AdvancedModularManikin"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="urn:AdvancedModularManikin schema/CapabilitiesSchema.xsd">
+
+   <BaselinePoEPower nominal="5" unit="W"/>
+
+   <Capability type="Foo">
+      <Subscriptions>
+         <OperationalDescription/>
+         <ModuleConfiguration/>
+         <SimulationControl/>
+         <Status/>
+      </Subscriptions>
+      <Publications>
+      </Publications>
+   </Capability>
+
+   <Configuration>
+      <Capability type="Foo">
+         <xs:schema targetNamespace="urn:AdvancedModularManikin"
+            xmlns="urn:AdvancedModularManikin"
+            xmlsn:xs="hhtp://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+         <xs:element name="enable" type="xs:boolean" default="true">
+            <xs:annotation>
+               <xs:appinfo>Usage:</xs:appinfo>
+               <xs:documentation xml:lang="en">
+                  Example capability.
+               </xs:documentation>
+            </xs:annotation>
+            </xs:element>
+         </xs:schema>
+      </Capability>
+   </Configuration>
+
+
+
+</CapabilitiesSchema>
