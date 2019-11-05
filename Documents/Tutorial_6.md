@@ -20,7 +20,7 @@ AMM::DDSManager<void>* mgr = new AMM::DDSManager<void>("Config/Config.xml");
 ```
 
 
-For every Initialize method DDS Manager has for a type, there is a Decommission method to complement. Decommission should be used to clean up after a type is no longer being used. This allows all publishers and subscribers associated with a type to be removed so memory
+For every **Initialize** method DDS Manager has for a type, there is a **Decommission** method to complement. Decommission should be used to clean up after a type is no longer being used. This allows all publishers and subscribers associated with a type to be removed so memory
 can be properly freed by the FastRTPS framework.
 \
 \
