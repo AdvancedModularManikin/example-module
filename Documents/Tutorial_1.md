@@ -18,7 +18,7 @@ AMM::DDSManager<void>* mgr = new AMM::DDSManager<void>("Config/Config.xml");
 ```
 The argument that DDS Manager takes is the path to the config file that every module must load on start. There should be a config directory in the same location as the executable.
 
-Note that <void> must be included in the template arguments to instantiate DDS Manager.\
+Note that `<void>` must be included in the template arguments to instantiate DDS Manager.
 
 > **NOTE:**\
 Why does DDS Manager use this kind of template specialization?\
