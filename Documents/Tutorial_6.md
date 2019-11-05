@@ -51,7 +51,7 @@ mgr->RemoveAssessmentSubscriber();
 ```
 
 Decommision calls Remove for both Publisher and Subscriber, and unregisters Assessment.\
-Even though the Publisher and Subscriber can be removed manually in the above manner, it is not recommended. Decommission needs to be used, always, when a type is done so DDS Manager is told to unregister the type from it's involvement on the DDS network.
+Even though the Publisher and Subscriber can be removed manually in the above manner, it is not recommended in replacement of Decommision. Decommission needs to be used, always, when a type is done so DDS Manager is told to unregister the type from it's involvement on the DDS network.
 ```
 mgr->DecommissionAssessment();
 ```
