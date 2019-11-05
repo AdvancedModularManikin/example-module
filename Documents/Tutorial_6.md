@@ -42,6 +42,9 @@ Create the Subscriber.
 mgr->CreateAssessmentSubscriber([](AMM::Assessment& assessment, eprosima::fastrtps::SampleInfo_t* info){});
 ```
 
+> **NOTE:**\
+DDS Manager supports non-member lambda experssions in it's `<void>` template only.
+
 Remove the Subscriber.
 ```
 mgr->RemoveAssessmentSubscriber();
