@@ -56,9 +56,9 @@ Foo* foo = new Foo();
 
 
 Now run the source code for yourself!\
-_insert github link to Tutorial_4.cpp_
+https://github.com/AdvancedModularManikin/example-module/blob/master/Source/Tutorial_4.cpp
 
 ### END TUTORIAL 4
 
 Move on to Tutorial 5.\
-_insert github link to Tutorial_5.md_
+https://github.com/AdvancedModularManikin/example-module/blob/master/Documents/Tutorial_5.md

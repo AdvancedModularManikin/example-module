@@ -336,6 +336,6 @@ mgr->WriteStatus(currentState.fooStatus);
 ```
 
 Now run the source code for yourself!\
-_insert github link to Tutorial_7.cpp_
+https://github.com/AdvancedModularManikin/example-module/blob/master/Source/Tutorial_7.cpp
 
 ### END TUTORIAL 7

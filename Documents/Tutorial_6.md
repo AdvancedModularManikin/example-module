@@ -93,9 +93,9 @@ delete mgr;
 ```
 
 Now run the source code for yourself!\
-_insert github link to Tutorial_6.cpp_
+https://github.com/AdvancedModularManikin/example-module/blob/master/Source/Tutorial_6.cpp
 
 ### END TUTORIAL 6
 
 Move on to Tutorial 7.\
-_insert github link to Tutorial_7.md_
+https://github.com/AdvancedModularManikin/example-module/blob/master/Documents/Tutorial_7.md

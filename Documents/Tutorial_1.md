@@ -122,9 +122,9 @@ mgr->WriteAssessment(assessment);
 ```
 
 Now run the source code for yourself!\
-_insert github link_
+https://github.com/AdvancedModularManikin/example-module/blob/master/Source/Tutorial_1.cpp
 
 ### END TUTORIAL 1
 
 Move on to Tutorial 2.\
-_insert github link_
+https://github.com/AdvancedModularManikin/example-module/blob/master/Documents/Tutorial_2.md

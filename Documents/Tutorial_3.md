@@ -64,9 +64,9 @@ Only non-static class members are supported at this time.
 
 
 Now run the source code for yourself!\
-_insert github link to Tutorial_3.cpp_
+https://github.com/AdvancedModularManikin/example-module/blob/master/Source/Tutorial_3.cpp
 
 ### END TUTORIAL 3
 
 Move on to Tutorial 4.\
-_insert github link to Tutorial_4.md_
+https://github.com/AdvancedModularManikin/example-module/blob/master/Documents/Tutorial_4.md
