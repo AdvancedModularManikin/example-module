@@ -73,7 +73,7 @@ An error message will be written if the method returns 1, meaning something went
 In some instances when methods return 0, they'll also write an attention message based on how the routine returned 0. This means that the whole routine doesn't need to execute again, and therefore exits early with 0 and a message describing why.
 
 For example: calling Initialize Assessment twice in a row.
-The first invocation will return 0 and write no message, however a second invocation immediately after the first will return 0 with a message saying that it's already initialzied and doesn't need to be initialized again -- hence the return of 0 with a message.
+The first invocation will return 0 and write no message, however a second invocation immediately after the first will return 0 with a message saying that it's already initialized and doesn't need to be initialized again -- hence the return of 0 with a message.
 
 
 Output errmsg if it contains anything.
