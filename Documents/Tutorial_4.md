@@ -24,7 +24,7 @@ private:
 
 public:
    Foo () {
-      // Initialize DDS Manager inside Foo's contructor.
+      // Initialize DDS Manager inside Foo's constructor.
       m_mgr = new AMM::DDSManager<Foo>("Config/Config.xml");
 
       // Initialize Assessment.
