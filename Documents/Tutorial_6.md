@@ -11,7 +11,7 @@ In order to use the AMM Library, this header must be included.
 ```
 
 
-This tutorial will explain and how teh correct proceedures to cleanup after initialized types that aren't being used anymore.
+This tutorial will explain the correct proceedures to cleanup after initialized types that aren't being used anymore.
 
 
 Create DDS Manager
