@@ -67,7 +67,7 @@ if (err != 0) {
 
 This implementation takes a reference to an string type and writes a message to it.
 
-Not every message written is descripting an error.
+Not every message written is describing an error.
 An error message will be written if the method returns 1, meaning something went wrong and the routine couldn't be successfully completed.
 
 In some instances when methods return 0, they'll also write an attention message based on how the routine returned 0. This means that the whole routine doesn't need to execute again, and therefore exits early with 0 and a message describing why.
