@@ -108,7 +108,7 @@ void OnAssessmentEvent (AMM::Assessment& assessment, eprosima::fastrtps::SampleI
 ```
 
 > **NOTE:**\
-DDS Manager only supports non-member lambda experssions in it's `<void>` template.
+DDS Manager supports non-member lambda experssions in it's `<void>` template only.
 
 Same for creating the subscriber
 ```
