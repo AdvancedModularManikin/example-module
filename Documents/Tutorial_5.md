@@ -23,13 +23,12 @@ Create an instance of DDS Manager.
 AMM::DDSManager<void>* mgr = new AMM::DDSManager<void>("Config/Config.xml");
 ```
 
-Now initialize Assessment catching for any errors it might return.
+###### Error Code
+Initialize Assessment catching for any errors it might return.
 ```
 int err = mgr->InitializeAssessment();
 ```
 
-
-###### Error Code
 Every method in DDS Manager will return an error code.
 It's up to the end user if they want to acknowledge the return value or not.
 
