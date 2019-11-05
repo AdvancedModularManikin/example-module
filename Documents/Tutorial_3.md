@@ -26,7 +26,7 @@ public:
 Class methods designed for subscriber callbacks must be public. User-defined methods for subscriber callbacks can be named whatever. The signature has to match as described in Tutorial 2.
 
 Class Foo contains a method with the same signature as OnAssessmentEvent in Tutorial 2.
-The only difference is ths function is associated with a user defined type.
+The only difference is this function is associated with a user defined type.
 
 When invoking a Create Subscriber method on DDS Manager for a type, the user is asked for a function reference to pass in as a callback. When creating DDS Manager with a `<void>` template, the user is able to pass in globally defined void functions. The user can also use a class method as the designated callback too, but given how a reference to a global function is very different from a method associated with a type, this requires DDS Manager to be structured slightly different to support the user-defined type -- hence why DDS Manager has been specialized into two template versions.
 
